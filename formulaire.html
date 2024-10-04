@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <font face = "Arial">
+    <title>Formulaire</title>
+</head>
+<body bgcolor="#f5e4c4">
+    <a href="index.html" target="_self"><strong>Retour</strong></a>
+    <br>
+    <h1>Candidature sur un emploi en informatique</h1>
+    <p>
+        <i>Tous les champs sont obligatoires</i>
+    
+    </p>
+    
+    <form id="form" action="">
+        <p>
+            <label for="nom">Nom</label>
+            <input id="nom" type="text" name="nom" value=" " required/>
+        </p>
+        <p>
+            <label for="prenom">Prenom</label>
+            <input id="prenom" type="text" name="nom" value=" " required/> <br>
+        </p>
+        <br>
+        <label>Expérience</label> <br>
+        
+            <input type="radio" id="debutant" name="experience" value="debutant" required>
+            <label for="debutant">Débutant</label><br>
+        
+        
+            <input type="radio" id="experimente" name="experience" value="experimente" required>
+            <label for="experimente">Expérimenté</label><br>
+        
+        
+            <input type="radio" id="confirme" name="experience" value="confirme" required>
+            <label for="confirme">Confirmé</label>
+        </form>
+        <br>
+    <p>
+        Candidature pour : 
+        <select name="Séléctionner votre candidature">
+            <option>Intégrateur web</option>
+            <option>Choix numéro 2</option>
+            <option>Choix numéro 3</option>
+        </select>
+    </p>
+    <br/>
+    <textarea name="impression" rows="15" cols="100">
+    Vos motivations pour ce poste ?
+    </textarea><br/>
+    <input type="submit" value="Enregistrer"/>
+    </p>
+
+    
+</body></font>
+</html> 
